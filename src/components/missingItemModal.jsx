@@ -1,6 +1,5 @@
 import React from "react";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { IconButton } from "@mui/material";
@@ -18,7 +17,7 @@ const style = {
   p: 4,
 };
 
-const MissingItemModal = ({open, setOpen, handleClose, handleOpen}) => {
+const MissingItemModal = ({ open, setOpen, handleClose, handleOpen }) => {
   return (
     <div>
       <Modal
